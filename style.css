@@ -1,0 +1,50 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+*/
+
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: Arial, Helvetica, Sans-serif;
+
+   }
+
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background: white;
+}
+
+
+.container {
+
+  border-top: solid;
+  color: #0974b3;
+
+
+}
+
+.flex-container {
+
+    display: flex;
+    border-top: solid;
+    color: #0974b3;
+}
+
+.flex-child {
+    flex: 1;
+    border-top: :10px solid #0974b3;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+#hp  {
+float: left;
+ margin: 0 15px 0 0;
+}
